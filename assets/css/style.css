@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 32px;
+  width: 100%;
+}
+
+.topnavbar {
+  width: 100%;
+  padding: 20px 0px;
+}
+.topnavbar .topnavbar-o {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topnavbar .topnavbar-o .tnleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topnavbar .topnavbar-o .tnleft ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+.topnavbar .topnavbar-o .ntright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 60px;
+}
+
+.section1 {
+  width: 100%;
+  padding: 50px 0px;
+}
+.section1 .section1-o {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 .section1-o .s1top {
+  max-width: 600px;
+  text-align: center;
+}
+.section1 .section1-o .s1top p {
+  color: gray;
+}
+.section1 .section1-o .s1top h3 {
+  color: gray;
+}
+.section1 .section1-o .s1bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.section1 .section1-o .s1bottom .s1bot {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section1 .section1-o .s1bottom .s1bot .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

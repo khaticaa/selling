@@ -1,0 +1,13 @@
+@include flexc {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+@include flexb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }

@@ -1,0 +1,103 @@
+// // @import '../sass/mixin';
+
+@import '../sass/valiable';
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+     padding: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 32px;
+    width: 100%;
+}
+.topnavbar{
+ 
+    width: 100%;
+    padding: 20px 0px;
+    .topnavbar-o{
+       display: flex;
+      align-items: center;
+      justify-content: space-between; 
+    //   padding: 20px;
+      .tnleft{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        ul{
+            display: flex;
+            align-items:center ;
+            justify-content:center ;
+            gap: 10px;
+            list-style: none;
+        }
+      }
+      .ntright{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        gap: 20px;
+        padding-right: 60px;
+       
+      }
+    }
+}
+
+.section1{
+    width: 100%;
+    padding: 50px 0px;
+    .section1-o{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   
+        .s1top{
+            max-width: 600px;
+            text-align: center;
+            p{
+                color: gray;
+            }
+            h3{
+                color: gray;
+            }
+        }
+        
+        .s1bottom{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+
+            .s1bot{
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                .icons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        
+    }
+}
+
+
+// .banner{
+//     width: 100%;
+//     background-image: url('../images/hero_2.jpg');
+//     background-position: center;
+//     min-height: 100vh;
+//     .ba
+
+// }
